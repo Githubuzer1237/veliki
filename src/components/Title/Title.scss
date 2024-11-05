@@ -1,0 +1,21 @@
+.title {
+   text-align: center;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   justify-content: center;
+   &::after {
+      content: '';
+      width: 100px;
+      height: 2px;
+      background-color: black;
+   }
+
+   &::before {
+      content: '';
+      width: 100px;
+      height: 2px;
+      background-color: black;
+   }
+}
